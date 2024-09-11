@@ -82,7 +82,7 @@ function Navbar() {
                 </div >
             </div>
 
-            <div className={`bg-[#131a2c] z-40 transition duration-500  ${doorOpen ? '-translate-x-0' : '-translate-x-[1500px]'}  w-full gap-5 xl:hidden top-0 absolute  py-10 px-5  h-full flex justify-between`}>
+            <div className={`bg-[#131a2c] z-40 transition duration-500  ${doorOpen ? '-translate-x-0' : '-translate-x-[1500px]'}  w-full gap-5 xl:hidden top-0  py-10 px-5  h-screen fixed flex justify-between`}>
                 <div className="flex  flex-col gap-5 ">
                     {
                         navitems.map((item, index) => {
