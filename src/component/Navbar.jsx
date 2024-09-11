@@ -82,7 +82,7 @@ function Navbar() {
                 </div >
             </div>
 
-            <div className={`bg-[#131a2c] transition duration-500  ${doorOpen ? '-translate-x-0' : '-translate-x-[1500px]'}  w-full gap-5 xl:hidden top-0 absolute  py-10 px-5  h-full flex justify-between`}>
+            <div className={`bg-[#131a2c] z-40 transition duration-500  ${doorOpen ? '-translate-x-0' : '-translate-x-[1500px]'}  w-full gap-5 xl:hidden top-0 absolute  py-10 px-5  h-full flex justify-between`}>
                 <div className="flex  flex-col gap-5 ">
                     {
                         navitems.map((item, index) => {
@@ -92,7 +92,7 @@ function Navbar() {
 
                                     {item.navLink === 'Үйлчилгээ' && open === true &&
 
-                                        <div className="2xl:text-xl text-lg absolute z-10 border border-gray-600 rounded-lg top-10 px-10 py-3 bg-[#12192a] text-gray-300">
+                                        <div className="2xl:text-xl text-lg absolute z-50 border border-gray-600 rounded-lg top-10 px-10 py-3 bg-[#12192a] text-gray-300">
                                             <button className="block text-nowrap hover:text-gray-50 transition duration-300">Үйлчилгээ</button>
                                             <button className="block text-nowrap my-3 hover:text-gray-50 transition duration-100">Бидний тухай</button>
                                             <button className="block text-nowrap my-3 hover:text-gray-50 transition duration-100">Бидэнтэй холбоо барина</button>

@@ -2,7 +2,7 @@
 
 function Gallery() {
     return (
-        <div className="bg-[url('https://mona-ai.mn/about-picture.jpg')] bg-no-repeat object-cover bg-cover mt-20 py-10">
+        <div className="bg-[url('https://mona-ai.mn/about-picture.jpg')] bg-center bg-no-repeat object-cover bg-cover mt-20 py-10">
             <div className="xl:container mx-auto md:px-10 px-3 xl:px-28">
                 <h1 className="header-font font-lexend mx-auto text-center mb-[16px] w-full text-[32px] font-semibold text-white/[0.9] lg:w-full lg:text-[48px]">Made With MAZALA.AI</h1>
                 <p className="font-inter mx-auto w-full text-[16px] text-white/[0.7] lg:w-[665px] lg:text-[18px] text-center">Mazala.AI ашиглан бүтээсэн шинэлэг төсөл, шийдлүүдийн үзэсгэлэнд тавтай морилно уу! Бүтээлч байдал ба технологийн огтлолцлыг бид хиймэл оюун ухаанаар дэмжигдсэн олон төрлийн хэрэглээг танилцуулж байгаарай.</p>

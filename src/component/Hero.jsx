@@ -3,7 +3,7 @@ import Button from "./Button"
 
 function Hero() {
     return (
-        <div className="bg-[url('https://i.ibb.co.com/zxgVGM1/vector.jpg')] bg-no-repeat bg-cover object-cover md:min-h-screen">
+        <div className="bg-[url('https://i.ibb.co.com/zxgVGM1/vector.jpg')] bg-center bg-no-repeat bg-cover object-cover md:min-h-screen">
             <div className="md:container mx-auto px-3">
                 <div className="md:pt-36 pt-28 transition-all">
                     <h1 className="header-font font-400 text-center text-[32px] leading-[38px] text-white/[0.8] lg:text-[80px] lg:leading-[104px]">Монголын шилдэг хиймэл</h1>

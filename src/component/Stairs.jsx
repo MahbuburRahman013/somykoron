@@ -8,7 +8,7 @@ function Stairs() {
             <h1 className="header-font font-lexend mx-auto text-center mb-[16px] w-full text-[32px] font-semibold text-white/[0.9] lg:w-full lg:text-[48px]">mona-ai.mn сайтын үйлчилгээг хэрхэн ашиглах <br /> талаар</h1>
             <p className="font-inter mx-auto w-full text-[16px] text-white/[0.7] lg:w-[665px] lg:text-[18px] text-center">Mazala.AI нь уран сэтгэмжийн хязгааргүй орон зайг бий болгож, хамгийн сүүлийн үеийн технологийг бүтээлч сэтгэлгээтэй хослуулан бүтээсэн.</p>
 
-            <div className="grid md:grid-cols-4 mt-10 md:h-[700px]">
+            <div className="grid md:grid-cols-4 sm:gap-0 gap-y-10 mt-10 md:h-[700px]">
                 <StairsSec color={'#2D9F89'} number={1} title={'Бүртгэл үүсгэх'} des={'Бүтээлч байдлаа нээж, төсөөллийн гүнийг судлах платформ болох Mazala.AI дээр бүртгэл үүсгэхийн тулд'} />
                 <div className="md:mt-[100px]">
                     <StairsSec color={'#FFB806'} title={'Хэрэгслийг сонгодог'} des={'Mazala.AI-д бүртгүүлсний дараа урам зориг, хэрэгжилтийг өдөөх янз бүрийн бүтээлч хэрэгслүүдийг судлаарай.'} number={2} />

@@ -4,7 +4,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 function Footer() {
     return (
-        <div className="bg-[url('https://mona-ai.mn/footer-bg.jpg')] bg-no-repeat object-cover bg-cover pt-20">
+        <div className="bg-[url('https://mona-ai.mn/footer-bg.jpg')] bg-center bg-no-repeat object-cover bg-cover pt-20">
 
             <div className="flex xl:flex-row flex-col gap-14 justify-between lg:container mx-auto lg:px-28 px-3">
 

@@ -16,7 +16,7 @@ function StairsSec({ color, number, title, des }) {
                                 <FaPaintBrush size={30} />
                     }
                 </div>
-                <div className="absolute rounded-tr-lg -z-20 w-full h-full top-10 border-white/[0.3] border-t-2 border-r-2 md:left-[70px] border-dashed">
+                <div className="absolute rounded-tr-lg -z-20 w-full h-full top-10 border-white/[0.3] border-t-2 border-r-2 md:left-[60px] border-dashed">
                 </div>
             </div>
             <div className="mt-10">
