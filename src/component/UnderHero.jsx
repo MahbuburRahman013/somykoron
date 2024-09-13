@@ -11,7 +11,7 @@ function UnderHero() {
             <div className="lg:container mx-auto lg:px-28 px-3 sm:mt-28 mt-16">
                 <h1 className="header-font text-center font-lexend mx-auto mb-[16px] w-full text-[32px] font-semibold text-white/[0.9] lg:w-full lg:text-[48px]">MAZALA.AI 5 гайхалтай хэрэгсэл</h1>
 
-                <div className="flex hide-scrollbar overflow-x-auto xl:grid grid-cols-5 justify-between items-center gap-3 min-w-[500px]">
+                <div className="flex hide-scrollbar overflow-x-auto xl:grid grid-cols-5 justify-between items-center gap-3">
                     <button onClick={() => setActive(1)} className={`${active === 1 ? 'bg-[#2D9F89]' : 'bg-[#19233A]'} lg:py-4  py-3  2xl:text-xl text-xl font-semibold  px-5  text-gray-200 hover:bg-[#2D9F89] rounded-md  text-nowrap  transition-all duration-300 cursor-pointer`}>Чатлах өрөө</button>
                     <button onClick={() => setActive(2)} className={`${active === 2 ? 'bg-[#2D9F89]' : 'bg-[#19233A]'} lg:py-4  py-3  2xl:text-xl text-xl font-semibold  px-5  text-gray-200 hover:bg-[#2D9F89] rounded-md  text-nowrap  transition-all duration-300 cursor-pointer`}>YouTube translation</button>
                     <button onClick={() => setActive(3)} className={`${active === 3 ? 'bg-[#2D9F89]' : 'bg-[#19233A]'} lg:py-4  py-3  2xl:text-xl text-xl font-semibold  px-5  text-gray-200 hover:bg-[#2D9F89] rounded-md  text-nowrap transition-all duration-300 cursor-pointer`}>AI видео хадмал</button>
